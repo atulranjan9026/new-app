@@ -5,8 +5,8 @@ const initialState = {
     {
       id: 1,
       name: 'Bitcoin',
-      symbol: 'BTC',
-      logo: 'https://cryptologos.cc/logos/bitcoin-btc-logo.png',
+      symbol: 'BTC',  
+logo: 'https://cryptologos.cc/logos/bitcoin-btc-logo.png',
       price: 50000,
       priceChange1h: 0.5,
       priceChange24h: 2.3,

@@ -1,0 +1,88 @@
+.table-container {
+    overflow-x: auto;
+  }
+  
+  .crypto-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  
+  .crypto-table th, .crypto-table td {
+    padding: 12px 8px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .crypto-table th {
+    font-weight: 600;
+    color: #666;
+    background-color: #f8f9fa;
+    position: sticky;
+    top: 0;
+  }
+  
+  .asset-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .asset-logo {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .asset-symbol {
+    color: #666;
+    font-size: 12px;
+  }
+  
+  .positive {
+    color: #16c784;
+  }
+  
+  .negative {
+    color: #ea3943;
+  }
+  
+  .sparkline-container {
+    width: 100px;
+    height: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .crypto-table {
+      font-size: 12px;
+    }
+    
+    .crypto-table th, .crypto-table td {
+      padding: 8px 4px;
+    }
+    
+    .asset-name {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2px;
+    }
+    
+    .sparkline-container {
+      width: 60px;
+    }
+  }
+
+  .asset-logo {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+  }
+
+  .asset-logo {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  

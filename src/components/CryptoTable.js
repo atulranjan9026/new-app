@@ -35,7 +35,7 @@ const CryptoTable = ({ assets }) => {
             <th>Volume (24h)</th>
             <th>Circulating Supply</th>
             <th>Max Supply</th>
-            <th>7D Chart</th>
+            <th>Last 7 Days</th>
           </tr>
         </thead>
         <tbody>
